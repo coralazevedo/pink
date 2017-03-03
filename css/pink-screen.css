@@ -1,18 +1,30 @@
 img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 .1em .5em rgba(0, 0, 0, .25)inset;
+}
+
+figure {
   max-width: 20em;
   height: auto;
   border: 1em solid #e498b1;
-  border-bottom: 5em solid #e498b1;
   margin-left: 0;
   margin-right: 0;
+  background: #e498b1;
+  box-shadow: 0 .2em .5em rgba(0, 0, 0, .25);
 }
 
-.year {
+
+h3 {
   font-weight: bold;
-  margin-top: -2em;
-  margin-left: .5em;
-  font-size: 1.25em;
-  color: #000;
+  font-weight: bold;
+  margin-top: .5em;
+  margin-bottom: 0;
+  font-size: 1.8em;
+  color: #fff;
+  font-family: "TrebuchetMS", sans-serif;
+  line-height: 1.8em;
+  max-width: 22em;
 }
 
 li{
@@ -21,8 +33,7 @@ li{
 h2 {
   font-family: "Georgia", serif;
   font-weight: bold;
-  color: #7c3d52;
-  margin-left: 2em;
+  color: #c64586;
   margin-top: 2em;
 }
 
@@ -37,7 +48,7 @@ h1 {
   font-size: 2em;
   font-weight: normal;
   color: #e498b1;
-  background: #7c3d52;
+  background: #eedee0;
   padding:  2em 3em 2em 3em;
   margin-left: 0;
   margin-top: -1em;
@@ -69,8 +80,7 @@ ul {
 
   img {
     margin-left: 0;
-    border: 1em solid #B17689;
-    border-bottom: 5em solid #B17689;
+
   }
 
 ul {
@@ -79,29 +89,86 @@ ul {
   margin-right: auto;
 }
 body {
-  background-color: #7c3d52;
+  background-color: #eedee0;
   width: 100%;
 }
 
 h2 {
-  color: #fff;
-  font-weight: normal;
+  color: #c64586;
+  /*font-weight: normal;*/
 }
 
-.year {
+h3 {
   font-weight: bold;
-  margin-top: -2em;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: .5em;
   font-size: 2em;
-  color: #7c3d52;
+  color: #eed5da;
+  font-family: "TrebuchetMS", sans-serif;
+  line-height: 1.8em;
+  max-width: 22em;
 }
-p {
-  color: #fff;
+
+.story {
+  color: #000;
 }
 
 .row-col {
   float: left;
 		width: 50%;
+}
+
+h1 {
+  background-color: #fff;
+  padding: 3em 3em 3em 3em;
+  margin-bottom: 0;
+  margin-top: -1em;
+  text-align: left;
+}
+
+}
+
+@media (min-width: 90em) {
+
+  img {
+    margin-left: 0;
+
+  }
+
+ul {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #eedee0;
+  width: 100%;
+}
+
+h2 {
+  color: #c64586;
+  /*font-weight: normal;*/
+}
+
+h3{
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0;
+  margin-left: .5em;
+  font-size: 2em;
+  color: #eed5da;
+  font-family: "TrebuchetMS", sans-serif;
+  line-height: 1.8em;
+}
+
+.story {
+  color: #000;
+}
+
+.row-col {
+  float: left;
+		width: 33.33%;
 }
 
 h1 {
